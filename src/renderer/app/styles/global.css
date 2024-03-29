@@ -1,12 +1,16 @@
-root {
+:root {
   /* color */
   --main-bg: #eeeeee;
   --black: #000000;
   --accent: #28bc37;
+  --accent-dark: color-mix(in srgb, var(--accent), black 20%);
+  --accent-light: color-mix(in srgb, var(--accent), white 20%);
   --gray: #adadad;
   --gray-light: #e8e8e8;
-  --bg: #ffffff;
   --red: #bc4c28;
+  --red-dark: color-mix(in srgb, var(--red), black 20%);
+  --red-light: color-mix(in srgb, var(--red), white 20%);
+  --bg: #ffffff;
   --sub-bg: #f5f5f5;
 
   /* font size */
@@ -14,9 +18,19 @@ root {
   --fz-md: 16px;
   --fz-b: 20px;
   --fz-lg: 40px;
+
+  /* border radius */
+  --r-md: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  padding: 20px;
   background: var(--main-bg);
   color: var(--black);
   font-family: sans-serif;

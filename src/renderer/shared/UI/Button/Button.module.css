@@ -1,0 +1,26 @@
+.root {
+  padding: 9px 30px;
+  border: none;
+  border-radius: var(--r-md);
+  font-size: var(--fz-md);
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  transition: background 0.15s ease;
+}
+
+.color-red {
+  background: var(--red);
+}
+
+.color-red:hover {
+  background: var(--red-dark);
+}
+
+.color-accent {
+  background: var(--accent);
+}
+
+.color-accent:hover {
+  background: var(--accent-dark);
+}
