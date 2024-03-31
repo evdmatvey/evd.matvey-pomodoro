@@ -21,6 +21,8 @@ const createWindow = (): void => {
   mainWindow.setMenuBarVisibility(false);
   mainWindow.setMenu(null);
 
+  mainWindow.webContents.openDevTools();
+
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 };
 
