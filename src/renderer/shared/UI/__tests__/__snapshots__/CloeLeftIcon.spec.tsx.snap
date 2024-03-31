@@ -1,0 +1,88 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CloseLeftIcon snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <svg
+        fill="none"
+        height="30"
+        viewBox="0 0 30 30"
+        width="30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M26.25 13.75H11.7625L14.6375 10.8875C14.754 10.771 14.8465 10.6326 14.9096 10.4803C14.9727 10.328 15.0051 10.1648 15.0051 10C15.0051 9.83518 14.9727 9.67197 14.9096 9.51969C14.8465 9.36741 14.754 9.22905 14.6375 9.1125C14.521 8.99595 14.3826 8.9035 14.2303 8.84043C14.078 8.77735 13.9148 8.74489 13.75 8.74489C13.5852 8.74489 13.422 8.77735 13.2697 8.84043C13.1174 8.9035 12.979 8.99595 12.8625 9.1125L7.8625 14.1125C7.7487 14.2314 7.65949 14.3716 7.6 14.525C7.47498 14.8293 7.47498 15.1707 7.6 15.475C7.65949 15.6284 7.7487 15.7686 7.8625 15.8875L12.8625 20.8875C12.9787 21.0047 13.117 21.0977 13.2693 21.1611C13.4216 21.2246 13.585 21.2572 13.75 21.2572C13.915 21.2572 14.0784 21.2246 14.2307 21.1611C14.383 21.0977 14.5213 21.0047 14.6375 20.8875C14.7547 20.7713 14.8477 20.633 14.9111 20.4807C14.9746 20.3284 15.0072 20.165 15.0072 20C15.0072 19.835 14.9746 19.6716 14.9111 19.5193C14.8477 19.367 14.7547 19.2287 14.6375 19.1125L11.7625 16.25H26.25C26.5815 16.25 26.8995 16.1183 27.1339 15.8839C27.3683 15.6495 27.5 15.3315 27.5 15C27.5 14.6685 27.3683 14.3505 27.1339 14.1161C26.8995 13.8817 26.5815 13.75 26.25 13.75ZM3.75 3.75C3.41848 3.75 3.10054 3.8817 2.86612 4.11612C2.6317 4.35054 2.5 4.66848 2.5 5V25C2.5 25.3315 2.6317 25.6495 2.86612 25.8839C3.10054 26.1183 3.41848 26.25 3.75 26.25C4.08152 26.25 4.39946 26.1183 4.63388 25.8839C4.8683 25.6495 5 25.3315 5 25V5C5 4.66848 4.8683 4.35054 4.63388 4.11612C4.39946 3.8817 4.08152 3.75 3.75 3.75V3.75Z"
+          fill="#ADADAD"
+        />
+      </svg>
+    </div>
+  </body>,
+  "container": <div>
+    <svg
+      fill="none"
+      height="30"
+      viewBox="0 0 30 30"
+      width="30"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M26.25 13.75H11.7625L14.6375 10.8875C14.754 10.771 14.8465 10.6326 14.9096 10.4803C14.9727 10.328 15.0051 10.1648 15.0051 10C15.0051 9.83518 14.9727 9.67197 14.9096 9.51969C14.8465 9.36741 14.754 9.22905 14.6375 9.1125C14.521 8.99595 14.3826 8.9035 14.2303 8.84043C14.078 8.77735 13.9148 8.74489 13.75 8.74489C13.5852 8.74489 13.422 8.77735 13.2697 8.84043C13.1174 8.9035 12.979 8.99595 12.8625 9.1125L7.8625 14.1125C7.7487 14.2314 7.65949 14.3716 7.6 14.525C7.47498 14.8293 7.47498 15.1707 7.6 15.475C7.65949 15.6284 7.7487 15.7686 7.8625 15.8875L12.8625 20.8875C12.9787 21.0047 13.117 21.0977 13.2693 21.1611C13.4216 21.2246 13.585 21.2572 13.75 21.2572C13.915 21.2572 14.0784 21.2246 14.2307 21.1611C14.383 21.0977 14.5213 21.0047 14.6375 20.8875C14.7547 20.7713 14.8477 20.633 14.9111 20.4807C14.9746 20.3284 15.0072 20.165 15.0072 20C15.0072 19.835 14.9746 19.6716 14.9111 19.5193C14.8477 19.367 14.7547 19.2287 14.6375 19.1125L11.7625 16.25H26.25C26.5815 16.25 26.8995 16.1183 27.1339 15.8839C27.3683 15.6495 27.5 15.3315 27.5 15C27.5 14.6685 27.3683 14.3505 27.1339 14.1161C26.8995 13.8817 26.5815 13.75 26.25 13.75ZM3.75 3.75C3.41848 3.75 3.10054 3.8817 2.86612 4.11612C2.6317 4.35054 2.5 4.66848 2.5 5V25C2.5 25.3315 2.6317 25.6495 2.86612 25.8839C3.10054 26.1183 3.41848 26.25 3.75 26.25C4.08152 26.25 4.39946 26.1183 4.63388 25.8839C4.8683 25.6495 5 25.3315 5 25V5C5 4.66848 4.8683 4.35054 4.63388 4.11612C4.39946 3.8817 4.08152 3.75 3.75 3.75V3.75Z"
+        fill="#ADADAD"
+      />
+    </svg>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

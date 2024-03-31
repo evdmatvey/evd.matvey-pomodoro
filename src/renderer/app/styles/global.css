@@ -12,6 +12,7 @@
   --red-light: color-mix(in srgb, var(--red), white 20%);
   --bg: #ffffff;
   --sub-bg: #f5f5f5;
+  color-scheme: light dark;
 
   /* font size */
   --fz-sm: 14px;
