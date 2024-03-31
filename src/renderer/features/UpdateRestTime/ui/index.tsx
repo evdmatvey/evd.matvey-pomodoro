@@ -11,11 +11,9 @@ const UpdateWorkTime = () => {
   );
 
   return (
-    <div>
-      <SettingsItem title="Rest time" description="Set a value from 1 to 60" isError={isError}>
-        <Input placeholder="15" value={currentTime} onChange={updateTimeHandler} />
-      </SettingsItem>
-    </div>
+    <SettingsItem title="Rest time" description="Set a value from 1 to 60" isError={isError}>
+      <Input placeholder="15" value={currentTime} onChange={updateTimeHandler} />
+    </SettingsItem>
   );
 };
 
