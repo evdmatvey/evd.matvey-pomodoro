@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text p {
+  color: var(--gray);
+  font-size: var(--fz-sm);
+}
+
+.text p.error {
+  color: var(--red);
+}
+
+.control {
+  width: 50px;
+}
