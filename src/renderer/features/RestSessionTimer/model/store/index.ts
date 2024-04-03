@@ -10,7 +10,7 @@ interface RestSessionTimerState {
 }
 
 export const useRestSessionTimerStore = create<RestSessionTimerState>()((set) => ({
-  isStopped: false,
+  isStopped: true,
   isEnd: false,
   completeRestSession: () =>
     set((state) => ({

@@ -10,7 +10,7 @@ interface WorkSessionTimerState {
 }
 
 export const useWorkSessionTimerStore = create<WorkSessionTimerState>()((set) => ({
-  isStopped: false,
+  isStopped: true,
   isEnd: false,
   completeWorkSession: () =>
     set((state) => ({
