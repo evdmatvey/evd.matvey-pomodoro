@@ -9,12 +9,14 @@ interface TimerProps {
   totalSeconds: number;
   isPlaying: boolean;
   endCallback: () => void;
+  resetKey?: number;
 }
 
-const Timer: FC<TimerProps> = ({ duration, isPlaying, totalSeconds, endCallback }) => {
+const Timer: FC<TimerProps> = ({ duration, isPlaying, totalSeconds, endCallback, resetKey }) => {
   return (
     <div className={styles.root}>
       <CountdownCircleTimer
+        key={resetKey ?? 0}
         isPlaying={isPlaying}
         duration={duration}
         colors={'#28bc37'}

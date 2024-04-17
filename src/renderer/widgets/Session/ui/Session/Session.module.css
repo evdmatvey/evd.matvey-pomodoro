@@ -1,0 +1,10 @@
+.root h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.message {
+  padding: 40px 0;
+  font-size: var(--fz-lg);
+  text-align: center;
+}
