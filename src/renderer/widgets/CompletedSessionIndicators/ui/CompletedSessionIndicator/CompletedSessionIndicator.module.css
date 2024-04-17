@@ -1,0 +1,10 @@
+.root {
+  width: 25px;
+  height: 25px;
+  border-radius: var(--r-md);
+  background: var(--bg);
+}
+
+.root.completed {
+  background: var(--accent);
+}

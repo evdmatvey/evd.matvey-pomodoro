@@ -3,6 +3,7 @@ import { create } from 'zustand';
 interface WorkSessionTimerState {
   isStopped: boolean;
   isEnd: boolean;
+  resetKey: number;
   completeWorkSession: () => void;
   pauseWorkSession: () => void;
   continueWorkSession: () => void;
@@ -12,6 +13,7 @@ interface WorkSessionTimerState {
 export const useWorkSessionTimerStore = create<WorkSessionTimerState>()((set) => ({
   isStopped: true,
   isEnd: false,
+  resetKey: 0,
   completeWorkSession: () =>
     set((state) => ({
       ...state,
@@ -32,5 +34,6 @@ export const useWorkSessionTimerStore = create<WorkSessionTimerState>()((set) =>
       ...state,
       isEnd: false,
       isStopped: false,
+      resetKey: state.resetKey + 1,
     })),
 }));
