@@ -1,6 +1,6 @@
 import { useSessionsStore } from '../../../entities/Sessions';
 import { Timer } from '../../../entities/Timer';
-import { useSettingsStore } from '../../../entities/Settings';
+import { useSettingsStore, SettingsStorage } from '../../../entities/Settings';
 import { useRestSessionTimerStore } from '../model/store';
 
 const RestSessionTimer = () => {
@@ -19,7 +19,7 @@ const RestSessionTimer = () => {
   return (
     <Timer
       isPlaying={!isStopped}
-      duration={10}
+      duration={restSessionTimeInSeconds}
       totalSeconds={restSessionTime}
       endCallback={restSessionEndHandler}
     />

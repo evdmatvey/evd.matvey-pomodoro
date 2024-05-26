@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useSettingsStore } from '../../../entities/Settings';
+import { useSettingsStore, SettingsStorage } from '../../../entities/Settings';
 import { isValidSessions } from '../../../shared/utils';
 
 export const useUpdateSessionPerDay = () => {
@@ -17,6 +17,7 @@ export const useUpdateSessionPerDay = () => {
     } else {
       setIsError(false);
       setSessionPerDay(actualCount);
+      SettingsStorage.setSessionPerDay(actualCount);
     }
 
     setSessions(count);
