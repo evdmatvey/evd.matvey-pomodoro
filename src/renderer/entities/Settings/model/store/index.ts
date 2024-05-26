@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { SettingsStorage } from '../../utils/SettingsStorage';
 
 interface SettingsState {
   workSessionTime: number;
@@ -10,11 +11,14 @@ interface SettingsState {
 }
 
 const SUM_REST_AND_WORK_TIME = 60;
+const WORK_SESSION_TIME = SettingsStorage.getWorkSessionTime();
+const REST_SESSION_TIME = SettingsStorage.getRestSessionTime();
+const SESSIONS_PER_DAY = SettingsStorage.getSessionPerDay();
 
 export const useSettingsStore = create<SettingsState>()((set) => ({
-  workSessionTime: 45,
-  restSessionTime: 15,
-  sessionPerDay: 10,
+  workSessionTime: WORK_SESSION_TIME,
+  restSessionTime: REST_SESSION_TIME,
+  sessionPerDay: SESSIONS_PER_DAY,
   setWorkSessionTime: (time) =>
     set((state) => ({
       ...state,

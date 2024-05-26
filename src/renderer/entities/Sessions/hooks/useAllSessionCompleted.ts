@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useSettingsStore } from '../../../entities/Settings';
+import { useSettingsStore, SettingsStorage } from '../../../entities/Settings';
 import { useSessionsStore } from '../model/store';
 
 export const useAllSessionCompleted = () => {
@@ -18,6 +18,7 @@ export const useAllSessionCompleted = () => {
     setAllSessionCompleted(false);
     completeCurrentSession();
     setCompletedSessionCount(0);
+    SettingsStorage.setCompletedSessions(0);
   };
 
   return { isAllSessionCompleted, resetSessions };

@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { SettingsStorage } from '../../../../entities/Settings';
 
 interface SessionsState {
   currentSessionState: 'work' | 'rest';
@@ -12,7 +13,7 @@ interface SessionsState {
 
 export const useSessionsStore = create<SessionsState>()((set) => ({
   currentSessionState: 'work',
-  completedSessionCount: 0,
+  completedSessionCount: SettingsStorage.getCompletedSessions(),
   isAllSessionCompleted: false,
   setRestSession: () =>
     set((state) => ({
